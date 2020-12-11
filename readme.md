@@ -49,3 +49,6 @@ profiles:
 ```shell 
 go run ./cmd/kube-scheduler/scheduler.go --config=./config/config.yaml --v=3
 ```
+
+## Contact us 
+#### QQ Group: 1048469440

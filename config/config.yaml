@@ -1,0 +1,10 @@
+apiVersion: kubescheduler.config.k8s.io/v1beta1
+kind: KubeSchedulerConfiguration
+clientConnection:
+  kubeconfig: /Users/funky/Downloads/tke-edge
+leaderElection:
+  leaderElect: true
+  resourceName: mandalorian
+  resourceNamespace: kube-system
+profiles:
+  - schedulerName: mandalorian
